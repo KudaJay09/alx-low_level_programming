@@ -6,7 +6,7 @@
  */
 int print_lst_digit(int n)
 {
-	int last =n % 10;
+	int last = n % 10;
 
 	/*Make absolute*/
 	if (n < 0)

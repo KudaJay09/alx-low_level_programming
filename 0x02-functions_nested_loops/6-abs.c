@@ -1,12 +1,18 @@
+#include "main.h"
+
 /**
  * _abs - entry point
  * @n: Integer thats going to compute absolute value
  * Return: Always 0
  */
-int _abs(int n)
+int _abs(int c)
 {
-	if (n > 0)
-		n *= -1;
+	if (c < 0)
+	{
+	int abs_val;
 
-	return (0);
+	abs_val = c * -1;
+	return (abs_val);
+	}
+	return (c);
 }
