@@ -1,15 +1,17 @@
-#include <main.h>
+#include "main.h"
+
 /**
- * main - check the code
- *
+ * print_alphabet - make the alphabet
  * Return: void
  */
+
 void print_alphabet(void)
 {
-	int i = 'a';
+	char c;
 
-	while (i < '{')
-		putchar(i++);
-
-	putchar('\n');
+	for (c = 'a'; c <= 'z'; c++)
+	{
+	_putchar(c);
+	}
+	_putchar('\n');
 }

@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 /**
  * print alphabet_x10 - Prints alphabet 10x in lowercase
  */
@@ -6,14 +6,14 @@ void print_alphabet_x10(void)
 {
 	int j;
 
-	for (j = 0; j < 10)
+	for (j = 0; j < 10;)
 		j++;
 	{
 		int i = 'a';
 
 		while (i < '{')
-			putchar(i++);
+			_putchar(i++);
 
-		putchar('\n');
+		_putchar('\n');
 	}
 }
