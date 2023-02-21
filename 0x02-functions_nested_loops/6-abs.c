@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _abs - entry point
- * @n: Integer thats going to compute absolute value
- * Return: Always 0
+ * _abs - Computs the absolut value of an intger
+ * @c: The number to be computed
+ * Return: Absolute valure of number or zerp
  */
 int _abs(int c)
 {
