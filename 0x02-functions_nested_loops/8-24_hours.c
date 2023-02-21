@@ -2,32 +2,23 @@
 
 /**
  * jack_bauer - Prints every minute of the day
- * Return: Always 0.
+ * Return: ...
  */
-int jack_bauer(void)
 
+void jack_bauer(void)
 {
-	int a, b, c, d;
+	int hrs, mins;
 
-	for (a = 0; a <= 2; a++)
+	for (hrs = 0; hrs <= 23; hrs++)
 	{
-	for (b = 0; b <= 9; b++)
-	{
-	if ((a <= 1 && b <= 9) || (a <= 2 && b <= 3))
-	{
-	for (c = 0; c <= 5; c++)
-	{
-	for (d = 0; d <= 9; d++)
-	{
-	_putchar(a + '0');
-	_putchar(b + '0');
-	_putchar(50);
-	_putchar(c + '0');
-	_putchar(d + '0');
-	_putchar('\n');
-	}
-	}
-	}
-	}
+		for (mins = 0; mins <= 59; mins++)
+		{
+			_putchar('0' + (hrs / 10));
+			_putchar('0' + (hrs % 10));
+			_putchar(':');
+			_putchar('0' + (mins / 10));
+			_putchar('0' + (mins % 10));
+			_putchar('\n');
+		}
 	}
 }
