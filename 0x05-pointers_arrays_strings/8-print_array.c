@@ -4,14 +4,15 @@
  * of integers, followed by a new line.
  * @a: array name
  * @n: No. of array element
+ * Return: a and n inputs
  */
-void print_array(int *a, int *n)
+void print_array(int *a, int n)
 {
 	int i;
 
 	for (i = 0; i < (n - 1); i++)
 	{
-		print("%d, ", a[i];
+		printf("%d, ", a[i]);
 	}
 
 		if (i == (n - 1))
