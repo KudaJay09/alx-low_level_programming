@@ -7,7 +7,7 @@
 * @head: pointer to head of list_t list
 * Return: address of new element, NULL if fail
 */
-list_t *add_node(list_t **head, const char *str);
+list_t *add_node(list_t **head, const char *str)
 {
 	char *str_copy;
 	int len;
