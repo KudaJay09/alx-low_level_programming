@@ -2,13 +2,13 @@
 #include "lists.h"
 
 /**
-* size_t print_list - prints all elements of list_t
+* print_list - prints all elements of list_t
 * @h: list_t list
 * Return: the number of nodes
 */
 size_t print_list(const list_t *h);
 {
-	size_t nodes = 0;
+	size_t nodes_count = 0;
 
 	while (h)
 	{
@@ -18,7 +18,9 @@ size_t print_list(const list_t *h);
 		else
 			printf("[%d] %s\n", h->len, h->str);
 
-		nodes++;
+		nodes_count++;
+
 		h = h->next;
 	}
+	return (nodes_count);
 }
