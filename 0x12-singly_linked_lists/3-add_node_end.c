@@ -4,7 +4,7 @@
 /**
 * *add_node_end - new node at the end of list_t list
 * @str: string to be added
-* @head - pointer the head of the list_t list
+* @head: physics sleep pointer the head of the list_t list
 * Return: address of the new element, or NULL if it failed
 */
 list_t *add_node_end(list_t **head, const char *str)
