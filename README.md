@@ -20,4 +20,4 @@ This repository contains directories that contain scripts for the following;
 * 0x0F. C - Function pointers
 * 0x10. C - Variadic functions
 * 0x12. C - Singly linked lists
-* 0x13. C - More singly linked lists :file_folder:
+* 0x13. C - More singly linked lists
