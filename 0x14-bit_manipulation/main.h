@@ -5,6 +5,7 @@
  * main.h - contains prototypes to for all tasks from 0 to 6
  */
 
+int _putchar(char c);
 unsigned int binary_to_unit(const char *b);
 void print_binary(unsigned long int n);
 int get_bit(unsigned long int n, unsigned int index);
