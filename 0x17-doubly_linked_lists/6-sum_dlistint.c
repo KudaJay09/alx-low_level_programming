@@ -1,6 +1,6 @@
 #include "lists.h"
 
-/*
+/**
  * sum_dlistint - returns the sum of all the data (n)
  * @head: pointer at beginning of node
  *
