@@ -13,7 +13,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	char *value_copy;
 	unsigned long int index, i;
 
-	// Checks if parameters are valid
+	/* Checks if parameters are valid*/
 	if (ht == NULL || key == NULL || *key == '\0' || value == NULL)
 		return (0);
 
@@ -48,6 +48,6 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	new->value = value_copy;
 	new->next = ht->array[index];
 	ht->array[index] = new;
-	// Return 1 to indicate success
+	/* Return 1 to indicate success*/
 	return (1);
 }
